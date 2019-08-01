@@ -15,7 +15,7 @@ var cookieParser = require('cookie-parser');
 
 var client_id = '82e91d92c29e4c71abc953087c32070c'; // Your client id
 var client_secret = 'f65d22f6732b4369b65c91ba7efa332f'; // Your secret
-var redirect_uri = 'maculify://callback'; // Your redirect uri
+var redirect_uri = 'http://localhost:8888'; // Your redirect uri
 
 /**
  * Generates a random string containing numbers and letters
